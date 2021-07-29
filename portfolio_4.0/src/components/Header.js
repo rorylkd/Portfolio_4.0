@@ -17,7 +17,7 @@ const nameStyle = {
   display: "block",
   fontFamily: "monospace",
   fontSize: "35px",
-  color: "black",
+  color: "white",
   textAlign: "center",
 };
 
