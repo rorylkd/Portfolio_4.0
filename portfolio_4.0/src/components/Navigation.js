@@ -9,15 +9,8 @@ const navStyle = {
   display: "flex",
   fontFamily: "monospace",
   textDecoration: "none",
-  flexDirection: "row",
-  alignItems: "flex-start",
   justifyContent: "space-evenly",
-};
-
-const linkStyle = {
-  textDecoration: "none",
-  color: "white",
-  fontSize: "30px",
+  flexWrap: 'wrap'
 };
 
 export default function Nav() {
@@ -25,16 +18,16 @@ export default function Nav() {
     <Router>
       <div>
         <nav style={navStyle}>
-          <Link to="/about" style={linkStyle}>
+          <Link to="/about" className="link">
             About Me
           </Link>
-          <Link to="/portfolio" style={linkStyle}>
+          <Link to="/portfolio" className="link">
             Portfolio
           </Link>
-          <Link to="/contact" style={linkStyle}>
+          <Link to="/contact" className="link">
             Contact Me
           </Link>
-          <Link to="/resume" style={linkStyle}>
+          <Link to="/resume" className="link">
             Resume
           </Link>
         </nav>

@@ -1,7 +1,12 @@
+body {
+  background-image: url(../src/assets/background_compressed.jpg);
+}
+
 .icon {
   width: 50px;
   height: auto;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;;
 
 }
 
@@ -15,4 +20,50 @@
 .allIcons {
   display: flex;
   justify-content: space-evenly;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.link:hover {
+  color: black;
+  transition: all .2s ease-in-out;
+
+
+  
+}
+
+.link:focus {
+  color: black;
+}
+
+.screenshot {
+  width: 1000px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.screenshot:hover {
+  transition: all .5s ease-in-out;
+  transform: scale(1.025);
+}
+
+@media screen and (max-width: 800px){
+  .screenshot {
+    width:400px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px){
+  .screenshot {
+    width:800px;
+    height: auto;
+  }
 }

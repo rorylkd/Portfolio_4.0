@@ -10,6 +10,6 @@ const aboutStyle = {
 
 export default function About() {
     return(
-        <p style={aboutStyle}>I am a 29 year old person who is deefinitely not an alien, oh no, that would be totally wrong beep boop boop</p>
+        <p style={aboutStyle}>Full stack-developer looking to make my mark on the web. </p>
     )
 }
