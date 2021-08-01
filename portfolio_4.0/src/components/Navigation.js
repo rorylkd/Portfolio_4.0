@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
 import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
@@ -33,6 +33,9 @@ export default function Nav() {
         </nav>
 
         <Switch>
+          <Route exact path="/">
+            <Redirect to="/about" />
+          </Route>
           <Route path="/about">
             <About />
           </Route>
