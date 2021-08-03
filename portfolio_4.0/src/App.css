@@ -67,3 +67,38 @@ body {
     height: auto;
   }
 }
+
+.formTitle {
+  display: block;
+  text-align: center;
+ margin: 25px;
+ font-family: monospace;
+ font-size: 20px;
+}
+
+.formInput {
+  display: flex;
+  margin: auto;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.formError {
+  display:block; 
+  text-align: center;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.submit {
+ display: flex;
+ margin: auto;
+ margin-top: 20px;
+ cursor: pointer;
+ background-color:steelblue;
+ color: white;
+ font-size: 25px;
+ padding: 10px 20px;
+ font-family: monospace;
+}
