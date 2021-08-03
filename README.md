@@ -8,12 +8,12 @@ A remake of the previous portfolio, built with React this time. There's an About
 
 Screenshot #1:
 
-![Screenshot #1:](portfolio_4.0/src/assets/portfolio4Screenshot.png)
+![Screenshot #1:](src/assets/portfolio4Screenshot.png)
 
 
 ## Links
 
-- Live deploy of main on GitHub Pages:
+- Live deploy of main on GitHub Pages: https://rorylkd.github.io/Portfolio_4.0/
 
 
 ## Technology Used
