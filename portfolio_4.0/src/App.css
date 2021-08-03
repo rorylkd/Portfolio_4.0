@@ -102,3 +102,21 @@ body {
  padding: 10px 20px;
  font-family: monospace;
 }
+
+.proficiencies {
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+  list-style: none;
+
+}
+
+.wow {
+  height: 20px;
+  width: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
